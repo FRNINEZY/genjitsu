@@ -26,7 +26,7 @@ def opening():
     print(r + "Server is down")
 
 def art():
-    print(pyfiglet.figlet_format("Gendjitsu"))
+    print(pyfiglet.figlet_format("Genjitsu"))
     print(b + "For more visit: https://github.com/FRNINEZY")
     print(g + "Staring Server" + w)
 

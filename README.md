@@ -32,8 +32,10 @@ pip install numpy
 pip install numba
 pip install opencv-python
 ```
-After open text editor(or your ide) and open main.py file 
-You also need mongodb database to store all logins and passwords 
+After open text editor(or your ide). Open main.py file. 
+You also need mongodb database to store all logins and passwords
+connect your mongodb database to main.py.
+it's not to hard I commented lines were you need to write.
 
 # Note
 
